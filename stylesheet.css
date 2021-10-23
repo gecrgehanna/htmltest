@@ -15,6 +15,7 @@ header {
 #dragtitle {
     padding: 0px;
     margin: 0px;
+    
 }
 
 #dragbootcamp {
@@ -25,6 +26,7 @@ header {
     font-size: 7pt;
     box-shadow: 2px 2px 5px rgb(1, 13, 184);;
     background-color: rgb(0, 17, 255);
+
 }                  
 
 #dragbootcampheader {
@@ -43,6 +45,7 @@ header {
     font-size: 7pt;
     box-shadow: 2px 2px 5px rgb(1, 13, 184);
     background-color: rgb(0, 17, 255);
+    
 }
 
 #dragaowsheader {
