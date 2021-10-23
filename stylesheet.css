@@ -1,0 +1,85 @@
+body {
+    background:rgb(0, 17, 255);
+    font-family: IBM Plex mono;
+    color:rgb(206, 206, 206);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background:rgb(206, 206, 206);
+    color: rgb(0, 17, 255);
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#dragtitle {
+    padding: 0px;
+    margin: 0px;
+}
+
+#dragbootcamp {
+    position: absolute;
+    z-index: 9;
+    border: 1px solid rgb(206, 206, 206);
+    text-align: left;  
+    font-size: 7pt;
+    box-shadow: 2px 2px 5px rgb(1, 13, 184);;
+    background-color: rgb(0, 17, 255);
+}                  
+
+#dragbootcampheader {
+    padding: 5px;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 17, 255); 
+}
+
+#dragaows {
+    position: absolute;
+    z-index: 12;
+    border: 1px solid rgb(206, 206, 206);
+    text-align: left;  
+    font-size: 7pt;
+    box-shadow: 2px 2px 5px rgb(1, 13, 184);
+    background-color: rgb(0, 17, 255);
+}
+
+#dragaowsheader {
+    padding: 5px;
+    cursor: move;
+    z-index: 12;
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 17, 255); 
+}
+
+#dragbio {
+    position: absolute;
+    z-index: 15;
+    border: 1px solid rgb(206, 206, 206);
+    text-align: left;  
+    font-size: 7pt;
+    box-shadow: 2px 2px 5px rgb(1, 13, 184);;
+    background-color: rgb(0, 17, 255);
+}                  
+
+#dragbioheader {
+    padding: 5px;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 17, 255); 
+}
+
+#line1 {
+    padding: 10px;
+}
+
+
+#line2 {
+    padding-left: 220px;
+}
+
+#line3 {
+    padding-left: 250px;
+}
