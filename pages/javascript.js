@@ -1,6 +1,9 @@
 
 dragElement(document.getElementById("dragbio"));
 dragElement(document.getElementById("dragbio1"));
+dragElement(document.getElementById("dragbio2"));
+dragElement(document.getElementById("dragbio3"));
+dragElement(document.getElementById("dragbio0"));
 
 function dragElement(elmnt) {
   var pos1 = 0 , pos2 = 0, pos3 = 0, pos4 = 0;

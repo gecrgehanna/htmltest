@@ -95,19 +95,17 @@ header {
     padding-left: 250px;
 }
 
-.container {
-    position: relative;
+#giftext {
+    width: 200px;
+    position: absolute;
+    bottom:3%;
+    left: 10%;
+    font-size: 8pt;
 }
 
-.containerbackground {
-    margin: 0;
+#gifbutton1 {
+    width: 100px;
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    color: rgb(1, 13, 184);
-    font-size: 7pt;
+    bottom: 5%;
+    left: 1%;
 }
