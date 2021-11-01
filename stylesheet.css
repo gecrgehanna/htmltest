@@ -82,17 +82,25 @@ header {
     color: rgb(0, 17, 255); 
 }
 
-#line1 {
-    padding: 10px;
+#dragstudio {
+    position: absolute;
+    z-index: 12;
+    border: 1px solid rgb(255, 102, 0);
+    text-align: left;  
+    font-size: 7pt;
+    box-shadow: 2px 2px 5px rgb(1, 13, 184);
+    background-color: rgb(255, 255, 255);
+    left: 55%;
+    top: 50%;
+    
 }
 
-
-#line2 {
-    padding-left: 220px;
-}
-
-#line3 {
-    padding-left: 250px;
+#dragstudioheader {
+    padding: 5px;
+    cursor: move;
+    z-index: 12;
+    background-color: rgb(255, 102, 0);
+    color: rgb(0, 17, 255); 
 }
 
 #giftext {
@@ -101,6 +109,7 @@ header {
     bottom:3%;
     left: 10%;
     font-size: 8pt;
+    background-color: rgb(0, 17, 255);
 }
 
 #gifbutton1 {
@@ -108,4 +117,22 @@ header {
     position: absolute;
     bottom: 5%;
     left: 1%;
+    z-index: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.containerbackground {
+    margin: 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0);
+    color: rgb(255, 102, 0);
+    font-size: 3pt;
 }
