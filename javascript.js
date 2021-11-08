@@ -2,6 +2,7 @@ dragElement(document.getElementById("dragstudio"));
 dragElement(document.getElementById("dragbootcamp" ));
 dragElement(document.getElementById("dragaows"));
 dragElement(document.getElementById("dragbio"));
+dragElement(document.getElementById("dragliving"));
 
 
 function dragElement(elmnt) {
