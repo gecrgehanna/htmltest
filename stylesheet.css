@@ -110,8 +110,8 @@ header {
     font-size: 7pt;
     box-shadow: 2px 2px 5px rgb(1, 13, 184);
     background-color: rgb(255, 255, 255);
-    left: 55%;
-    top: 50%;
+    left: 50%;
+    top: 20%;
     
 }
 
@@ -122,6 +122,27 @@ header {
     background-color: rgb(255, 102, 0);
     color: rgb(0, 17, 255); 
 }
+
+#dragtech {
+    position: absolute;
+    z-index: 15;
+    border: 1px solid rgb(206, 206, 206);
+    text-align: left;  
+    font-size: 7pt;
+    box-shadow: 2px 2px 5px rgb(1, 13, 184);;
+    background-color: rgb(0, 17, 255);
+    left: 21%;
+    top: 35%;
+}                  
+
+#dragtechheader {
+    padding: 5px;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 17, 255); 
+}
+
 
 #giftext {
     width: 200px;
