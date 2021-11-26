@@ -4,6 +4,8 @@ dragElement(document.getElementById("dragaows"));
 dragElement(document.getElementById("dragbio"));
 dragElement(document.getElementById("dragliving"));
 dragElement(document.getElementById("dragtech"));
+dragElement(document.getElementById("dragcommunity"));
+
 
 function dragElement(elmnt) {
   var pos1 = 0 , pos2 = 0, pos3 = 0, pos4 = 0;

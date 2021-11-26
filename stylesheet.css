@@ -143,6 +143,28 @@ header {
     color: rgb(0, 17, 255); 
 }
 
+#dragcommunity {
+    position: absolute;
+    z-index: 15;
+    border: 1px solid rgb(206, 206, 206);
+    text-align: left;  
+    font-size: 7pt;
+    box-shadow: 2px 2px 5px rgb(1, 13, 184);;
+    background-color: rgb(0, 17, 255);
+    left: 23%;
+    top: 40%;
+}                  
+
+#dragcommunityheader {
+    padding: 5px;
+    cursor: move;
+    z-index: 10;
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 17, 255); 
+}
+
+
+
 
 #giftext {
     width: 200px;
