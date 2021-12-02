@@ -1,3 +1,4 @@
+dragElement(document.getElementById("dragplaylist"));
 dragElement(document.getElementById("dragstudio"));
 dragElement(document.getElementById("dragbootcamp" ));
 dragElement(document.getElementById("dragaows"));
