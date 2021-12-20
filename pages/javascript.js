@@ -1,8 +1,10 @@
 
-
-dragElement(document.getElementById("dragbio"));
 dragElement(document.getElementById("dragbio0"));
 dragElement(document.getElementById("dragbio1"));
+dragElement(document.getElementById("dragbio"));
+
+
+
 dragElement(document.getElementById("dragbio2"));
 dragElement(document.getElementById("dragbio3"));
 
