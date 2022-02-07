@@ -1,12 +1,10 @@
-dragElement(document.getElementById("dragplaylist"));
+dragElement(document.getElementById("dragt1",));
+dragElement(document.getElementById("dragt2fab",));
 dragElement(document.getElementById("dragstudio"));
-dragElement(document.getElementById("dragbootcamp" ));
-dragElement(document.getElementById("dragaows"));
-dragElement(document.getElementById("dragbio"));
-dragElement(document.getElementById("dragliving"));
-dragElement(document.getElementById("dragtech"));
-dragElement(document.getElementById("dragcommunity"));
-dragElement(document.getElementById("dragintelligence"));
+dragElement(document.getElementById("dragplaylist"));
+
+
+
 
 
 function dragElement(elmnt) {
