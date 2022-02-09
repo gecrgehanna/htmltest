@@ -1,11 +1,5 @@
-dragElement(document.getElementById("dragbootcamp",));
-dragElement(document.getElementById("dragaows"));
-dragElement(document.getElementById("dragbio"));
-dragElement(document.getElementById("dragliving"));
-dragElement(document.getElementById("dragtech"));
-dragElement(document.getElementById("dragcommunity"));
-dragElement(document.getElementById("dragintelligence"));
-dragElement(document.getElementById("dragbillion"));
+dragElement(document.getElementById("dragc1",));
+
 
 
 
