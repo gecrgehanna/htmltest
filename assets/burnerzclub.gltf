@@ -1,0 +1,205 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                -1.7854619026184082,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera.001",
+            "rotation" : [
+                0.0662020593881607,
+                -0.6991118788719177,
+                0.7089414000511169,
+                0.06528371572494507
+            ],
+            "scale" : [
+                2.155734062194824,
+                2.155734062194824,
+                2.1557343006134033
+            ],
+            "translation" : [
+                -1.3049260377883911,
+                2.412008285522461,
+                -2.3726837635040283
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Curve",
+            "rotation" : [
+                0.06547310203313828,
+                -0.7040690779685974,
+                0.7040690779685974,
+                0.06547310203313828
+            ],
+            "scale" : [
+                7.656716346740723,
+                7.656716346740723,
+                7.656716823577881
+            ],
+            "translation" : [
+                -0.5098564624786377,
+                2.3796963691711426,
+                1.501975417137146
+            ]
+        }
+    ],
+    "animations" : [
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 2,
+                        "path" : "rotation"
+                    }
+                }
+            ],
+            "name" : "CurveAction.002",
+            "samplers" : [
+                {
+                    "input" : 3,
+                    "interpolation" : "LINEAR",
+                    "output" : 4
+                }
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "SVGMat",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    5.498905658721924,
+                    0.19661158323287964,
+                    0.13647639751434326,
+                    1
+                ],
+                "metallicFactor" : 0.6113636493682861,
+                "roughnessFactor" : 0.054545432329177856
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Curve",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 38016,
+            "max" : [
+                0.15433964133262634,
+                0.007083984557539225,
+                0.04839412868022919
+            ],
+            "min" : [
+                -0.13356976211071014,
+                -0.005868162959814072,
+                -0.07546758651733398
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 38016,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 227964,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 100,
+            "max" : [
+                4
+            ],
+            "min" : [
+                0.04
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 100,
+            "type" : "VEC4"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 456192,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 456192,
+            "byteOffset" : 456192
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 455928,
+            "byteOffset" : 912384
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 400,
+            "byteOffset" : 1368312
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1600,
+            "byteOffset" : 1368712
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1370312,
+            "uri" : "burnerzclub.bin"
+        }
+    ]
+}
