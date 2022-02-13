@@ -4,7 +4,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-   <style>#dragtitle {
+   <style>
+   
+   #dragtitle {
     padding: 0px;
     margin: 0px;
     
@@ -111,12 +113,6 @@ header {
 }
 
 
-
-
-
-
-
-
 .container {
     position: relative;
 }
@@ -132,13 +128,24 @@ header {
     -webkit-transform: rotate(0deg);
     color: rgb(255, 102, 0);
     font-size: 3pt;
-}</style>
+}
+
+model-viewer {
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+        z-index: 20;
+    }
+
+</style>
    
    <style>
 
 
     </style>
     <head>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
         <title>MDEF journal</title>
 
 
@@ -160,27 +167,27 @@ header {
 
     </div>
      
-    
+
 
         </div>
      <div id="line1">
        <div id="dragc1">
         <div id="dragc1header"><h2 id="dragtitle">[c1] principles</h2></div>
-          <a href= "pages/fablab/c1.html"><img src="images/c1.png" width="130"></a>
+          <a href= "pages/c1.html"><img src="images/c1.png" width="130"></a>
             <script src="javascript-t2.js"></script>  
        </div>
 
        <div id="line2">
         <div id="dragc2">
          <div id="dragc2header"><h2 id="dragtitle">[c2] ca-design</h2></div>
-           <a href= "pages/fablab/c2.html"><img src="images/c2.png" width="130"></a>
+           <a href= "pages/c2.html"><img src="images/c2.png" width="130"></a>
              <script src="javascript-t2.js"></script>  
         </div>
 
         <div id="line2">
             <div id="dragc3">
              <div id="dragc3header"><h2 id="dragtitle">[c3] cc-cutting</h2></div>
-               <a href= "pages/fablab/c3.html"><img src="images/c3.png" width="130"></a>
+               <a href= "pages/c3.html"><img src="images/c3.png" width="130"></a>
                  <script src="javascript-t2.js"></script>  
             </div>
 
