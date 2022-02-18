@@ -59,6 +59,12 @@
         margin: 0 auto;
 
     }
+
+    model-viewer {
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+    }
     
     
     
@@ -71,6 +77,7 @@
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
         <a href= https://gecrgehanna.github.io/mdefprocess> <header><marquee><strong>MDEF process</strong> • george hanna //click here to go back to homepage//  <strong>MDEF process</strong> • george hanna</marquee></header></a>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
         <title>MDEF journal</title>
        <div id= seminarpagetitle >
         <h1>c3:computer controlled cutting</h1>   
@@ -82,6 +89,7 @@
     </head>
     <body>
         <div id="paragraph">
+            <model-viewer src="fablab-c3.glb" auto-rotate camera-controls></model-viewer> <br><br>
             <img src="fablab-c3-20.png" class="image"><br><br>
             For the 3rd week, we went over some main softwares such as Autodesk Fusion 360 and Rhino to learn more about designing, preparing and assembling models through cutting machines (Laser cut, CNC milling, etc…). For this assignment specifically, we also were supposed to work with parametric design systems, which gives us the option to change specific measurements and dimensions in our designs without having to repeat the whole process as a whole. This system would automatically adapt our design to the dimensions we input at our convenience.
             <br><br>
@@ -112,6 +120,8 @@
         And finally, I have followed this nesting tutorial in order to prepare the model for laser cutting.<br><br>
         <img src="fablab-c3-18.png" class="image"><br><br>
         <img src="fablab-c3-19.png" class="image"><br><br>
+        Due to working on Fusion, I had a hard time preparing the file to send to the laser cut machine, so I had to flatten everything and import it on Rhino and make all the pieces 2d and delete unnecessary lines before laser cutting. Here is the final model presented below<br><br>
+        <img src="fablab-c3-model.png" class="image"><br><br>
 
  
 

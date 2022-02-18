@@ -1,6 +1,7 @@
 dragElement(document.getElementById("dragc1",));
 dragElement(document.getElementById("dragc2",));
 dragElement(document.getElementById("dragc3",));
+dragElement(document.getElementById("dragmc1",));
 
 
 
