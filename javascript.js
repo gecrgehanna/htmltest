@@ -1,5 +1,4 @@
-dragElement(document.getElementById("dragt1",));
-dragElement(document.getElementById("dragt2fab",));
+
 dragElement(document.getElementById("dragstudio"));
 dragElement(document.getElementById("dragplaylist"));
 
