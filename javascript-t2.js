@@ -13,11 +13,14 @@ dragElement(document.getElementById("dragc12",));
 dragElement(document.getElementById("dragc13",));
 dragElement(document.getElementById("dragc14",));
 dragElement(document.getElementById("dragc15",));
+dragElement(document.getElementById("dragc16",));
+dragElement(document.getElementById("dragc17",));
+dragElement(document.getElementById("dragc18",));
 dragElement(document.getElementById("dragmc1",));
 dragElement(document.getElementById("dragmc2",));
 dragElement(document.getElementById("dragmc3",));
-
-
+dragElement(document.getElementById("dragmc4",));
+dragElement(document.getElementById("dragmc",));
 
 
 function dragElement(elmnt) {
