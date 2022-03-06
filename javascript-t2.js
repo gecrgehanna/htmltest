@@ -1,8 +1,21 @@
 dragElement(document.getElementById("dragc1",));
 dragElement(document.getElementById("dragc2",));
 dragElement(document.getElementById("dragc3",));
+dragElement(document.getElementById("dragc4",));
+dragElement(document.getElementById("dragc5",));
+dragElement(document.getElementById("dragc6",));
+dragElement(document.getElementById("dragc7",));
+dragElement(document.getElementById("dragc8",));
+dragElement(document.getElementById("dragc9",));
+dragElement(document.getElementById("dragc10",));
+dragElement(document.getElementById("dragc11",));
+dragElement(document.getElementById("dragc12",));
+dragElement(document.getElementById("dragc13",));
+dragElement(document.getElementById("dragc14",));
+dragElement(document.getElementById("dragc15",));
 dragElement(document.getElementById("dragmc1",));
-
+dragElement(document.getElementById("dragmc2",));
+dragElement(document.getElementById("dragmc3",));
 
 
 
