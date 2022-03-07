@@ -517,8 +517,8 @@ blockquote {
 	fill: rgba(203, 145, 47, 1);
 }
 .highlight-teal {
-	color: rgba(68, 131, 97, 1);
-	fill: rgba(68, 131, 97, 1);
+	color: rgb(0, 255, 119);
+	fill: rgb(0, 255, 119);
 }
 .highlight-blue {
 	color: rgba(51, 126, 169, 1);
@@ -584,8 +584,8 @@ blockquote {
 	fill: rgba(203, 145, 47, 1);
 }
 .block-color-teal {
-	color: rgba(68, 131, 97, 1);
-	fill: rgba(68, 131, 97, 1);
+	color: rgb(0, 255, 119);
+	fill: rgb(0, 255, 119);
 }
 .block-color-blue {
 	color: rgba(51, 126, 169, 1);
