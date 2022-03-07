@@ -75,7 +75,7 @@ h3 {
 }
 
 .source {
-	border: 1px solid #ddd;
+	border: 1px solid rgb(206,206,206));
 	border-radius: 3px;
 	padding: 1.5em;
 	word-break: break-all;
