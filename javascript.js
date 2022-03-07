@@ -1,5 +1,6 @@
 
 dragElement(document.getElementById("dragstudio"));
+dragElement(document.getElementById("dragstudio2"));
 dragElement(document.getElementById("dragplaylist"));
 
 
