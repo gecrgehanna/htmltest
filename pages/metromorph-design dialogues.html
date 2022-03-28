@@ -1,0 +1,119 @@
+<style>
+
+body {
+    background:rgb(255, 255, 255);
+    font-family: IBM Plex mono;
+    color:rgb(0,17,255);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background:rgb(0,17,255);;
+    color: rgb(255, 255, 255);
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+h1 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20%; 
+    margin-right: 20%; 
+    font-size: 70pt;
+    font-family: IBM Plex Mono Thin;
+    font-style: italic;
+}
+
+h6 {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 5%;
+    margin-left: 20%; 
+    margin-right: 20%; 
+    font-size: 10pt;
+    font-family: IBM Plex Mono;
+}
+
+#paragraph {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+model-viewer {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.image{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+</style>
+
+<!DOCTYPE html>
+<head>
+    <!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href= https://gecrgehanna.github.io/mdefprocess> 
+        
+    <header><marquee><strong>MDEF process</strong> • george hanna //click here to go back to homepage//  <strong>MDEF process</strong> • george hanna</marquee></header></a>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+
+    <title>MDEF journal</title>
+   <div id= seminarpagetitle >
+    <h1>c2:computer aided design</h1>   
+    <h6>[feb 9]</h6>
+   </div>  
+
+   <hr width="60%" color="blue"> <br>
+
+</head>    
+
+<body>
+
+    <div id="paragraph">
+        
+
+    <model-viewer bounds="tight" src="metromorph.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0"></model-viewer>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
+
+
+</div>
+<br><br>
+
+
+<br><br>
+</body>
+
+</html>
