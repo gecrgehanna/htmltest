@@ -115,6 +115,27 @@ header {
     top: 40%;
 }
 
+#dragmaterials {
+    position: absolute;
+    z-index: 12;
+    border: 1px solid rgb(229, 255, 0);
+    text-align: left;  
+    font-size: 7pt;
+    box-shadow: 2px 2px 5px rgb(1, 13, 184);
+    background-color: rgb(3, 2, 2);
+    left: 50%;
+    top: 10%;
+    
+}
+
+#dragmaterialsheader {
+    padding: 5px;
+    cursor: move;
+    z-index: 12;
+    background-color: rgb(229, 255, 0);
+    color: rgb(0, 17, 255); 
+}
+
 
 </style>
    
@@ -156,9 +177,6 @@ header {
             <a href= "term 2 fablife.html"><img src="icons/folder-aows.png" width="95px"></a>
          </div>
 
-         <div id="folder2remix">
-            <a href= "term 2 fablife.html"><img src="icons/folder-remixing.png" width="85px"></a>
-         </div>
 
          <div id="folder2collective">
             <a href= "term 2 fablife.html"><img src="icons/folder-collective.png" width="100px"></a>
@@ -173,7 +191,12 @@ header {
          </div>
 
 
-
+         <div id="line4">                     
+            <div id="dragmaterials"> 
+             <div id="dragmaterialsheader"><h2 id="dragtitle">remixing materials</h2></div>
+             <iframe id="materialswindow" src="pages/remixingg.html" width= 400px, height= 300px;>remixing</iframe>
+                 <script src="javascript-t2.js"></script>  
+            </div>
 
 
 
