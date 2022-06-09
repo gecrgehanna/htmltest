@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="I1" type="text" name="User1">
+    <button onclick="updateUser1()">Ad for user1</button>
+    <span id="Ad1"></span>
+    <br><br>
+    <input id="I2" type="text" name="User2">
+    <button onclick="updateUser2()">Ad for user2</button>
+    <span id="Ad2"></span>
+    <br><br>
+
+    <button onclick="calculateintersection()">Compare</button>
+    <span id="compareusers"></span>
+
+    <script>
+        let input1 = document.getElementById("I1");
+        let span1 = document.getElementById("Ad1");
+        let input2 = document.getElementById("I2");
+        let span2 = document.getElementById("Ad2");
+        let listuser1 = [];
+        let listuser2 = [];
+        let spancompare = document.getElementById("compareusers");
+        
+        function updateUser1(){
+            let temp = input1.value;
+            span1.innerHTML += temp + "<br>"; 
+            listuser1.push(temp);
+        }
+
+        function updateUser2(){
+            let temp = input2.value;
+            span2.innerHTML += temp + "<br>";
+            listuser2.push(temp);
+        }
+
+        function calculateintersection(){
+            const intersection = listuser1.filter(value => listuser2.includes(value));
+            spancompare.innerHTML = intersection.map(I => I + "<br>");
+
+        }
+    </script>
+</body>
+</html>

@@ -1,4 +1,5 @@
 dragElement(document.getElementById("dragmaterials"));
+dragElement(document.getElementById("dragethics"));
 dragElement(document.getElementById("dragc1",));
 dragElement(document.getElementById("dragc2",));
 dragElement(document.getElementById("dragc3",));
